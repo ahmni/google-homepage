@@ -5,21 +5,42 @@ h1 {
 header {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     background-color: coral;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 input {
-    width: 200%;
-    flex-wrap: wrap;
+    width: 145%;
+    position: relative;
+    left: 50%;
+    border-radius: 25px;
 }
 button {
     height: 20px;
     width: 80px;
+    position: relative;
+    left: 180%;
+    bottom: 20;
+    border-radius: 25px;
 }
 article {
     margin-left: 80px;
     display: flex;
-    background-color: yellow;
+    background-color: rgb(241, 239, 239);
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 60px;
+}
+img {
+    width: 10%;
+    height: auto;
+}
+
+nav {
+    padding-right: 200px;
+    background-color: white;
+    height: 46%;
 }
