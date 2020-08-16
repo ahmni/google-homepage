@@ -194,3 +194,6 @@ h3 {
     margin: 0;
     color: darkblue;
 }
+input:hover {
+    box-shadow: 0px 0px 5px rgb(211, 205, 205);
+}
